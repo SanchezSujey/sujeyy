@@ -2,9 +2,7 @@ import tkinter as tk
 
 def saludar():
     nombre = entrada.get() 
-    etiqueta_resultado.config(text=f"Hola {nombre}") 
-     edad = entrada.get() 
-    etiqueta_resultado.config(text=f"tiene {edad} año") 
+    etiqueta_resultado.config(text=f"Hola {nombre}",tienes {edad} año") 
 
     
 
@@ -15,6 +13,7 @@ def saludar():
 
     etiqueta = tk.Label(ventana, text="Ingresa tu nombre:") 
     etiqueta.pack() 
+   
     etiqueta = tk.Label(ventana, text="Ingresa tu edad:") 
     etiqueta.pack()
 
